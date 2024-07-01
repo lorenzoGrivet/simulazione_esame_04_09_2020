@@ -49,8 +49,7 @@ class View(ft.UserControl):
         self.txtRicorsione = ft.ListView(expand=1)
 
         self._page.add(self.txtGrafo)
-        self._page.add(self.txtGradoMax)
-        self._page.add(self.txtRicorsione)
+
         self._page.update()
     @property
     def controller(self):
